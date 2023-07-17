@@ -1,0 +1,122 @@
+<mxfile host="65bd71144e">
+    <diagram name="Página-1" id="TTp-K46U8V-8WiusqMop">
+        <mxGraphModel dx="1003" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="oWftCitZypZjTsJXQDdE-16" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="326" y="63.66666666666666" width="174.00000000000003" height="62.66666666666667" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#666666;dashed=1;endArrow=block;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="oWftCitZypZjTsJXQDdE-19" target="oWftCitZypZjTsJXQDdE-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-19" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;Truck&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="230" width="72" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;jumpStyle=none;endSize=10;startSize=10;" parent="1" source="oWftCitZypZjTsJXQDdE-20" target="oWftCitZypZjTsJXQDdE-14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="736.5" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-20" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;Ship&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="742.5" y="230" width="72" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-33" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;const transport = this.createTransport();&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;return transport.deliver();&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="-50" width="316" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-34" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot;&gt;return new&amp;nbsp;Truck();&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="224.25" y="380" width="153.5" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#666666;endArrow=open;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="oWftCitZypZjTsJXQDdE-8" target="oWftCitZypZjTsJXQDdE-12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="570" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;strokeColor=#666666;strokeWidth=2;endSize=10;jumpStyle=none;startSize=10;" parent="1" source="oWftCitZypZjTsJXQDdE-23" target="oWftCitZypZjTsJXQDdE-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;strokeColor=#666666;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="19" target="oWftCitZypZjTsJXQDdE-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="522" y="229.99999999999977" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;strokeWidth=2;strokeColor=#C3C3C3;sourcePerimeterSpacing=1;" parent="1" source="oWftCitZypZjTsJXQDdE-25" target="oWftCitZypZjTsJXQDdE-34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.007;exitY=0.331;exitDx=0;exitDy=0;endArrow=none;strokeColor=#C3C3C3;endFill=0;dashed=1;strokeWidth=2;sourcePerimeterSpacing=17;targetPerimeterSpacing=1;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="oWftCitZypZjTsJXQDdE-8" target="oWftCitZypZjTsJXQDdE-33" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="188" y="123"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;endArrow=open;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;exitX=0;exitY=0.5;exitDx=0;exitDy=0;rounded=0;startSize=10;" parent="1" source="9" target="oWftCitZypZjTsJXQDdE-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot;&gt;return&lt;b&gt; &lt;/b&gt;this.logistics.planDelivery();&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="-60" width="285.5" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;endArrow=none;rounded=0;strokeColor=#C3C3C3;endFill=0;dashed=1;strokeWidth=2;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;" parent="1" source="10" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="540" y="-140" width="131.99999999999997" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="6" vertex="1">
+                    <mxGeometry y="17.5" width="131.99999999999997" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;b style=&quot;color: rgb(73, 73, 73); font-family: Nunito;&quot;&gt;LogisticsApplication&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="-150" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;- logistics: Logistics&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="-120" width="132" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot;&gt;&lt;font face=&quot;Nunito&quot;&gt;+ execute()&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="-90" width="131.99999999999997" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-6" value="&lt;i&gt;&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;&lt;b&gt;Logistics&lt;/b&gt;&lt;/font&gt;&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="326" y="50" width="174" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-7" value="&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="326" y="80" width="174" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-8" value="&lt;font face=&quot;Nunito&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot;&gt;+ planDelivery()&lt;br&gt;&lt;/font&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+&lt;i style=&quot;&quot;&gt; createTransport(): Transport&lt;/i&gt;&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="326" y="110" width="174" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-15" value="" style="whiteSpace=wrap;html=1;strokeColor=#494949;fillColor=#494949;container=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="687.5" y="98.5003766331593" width="90" height="30.00077924101926" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-14" value="&lt;font face=&quot;Nunito&quot;&gt;&lt;font color=&quot;#494949&quot;&gt;+ deliver()&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="687.5" y="118.99948050598715" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-12" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Transport&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;container=0;strokeWidth=2;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="687.5" y="84" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-22" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="214" y="260" width="174" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-23" value="&lt;font style=&quot;&quot; color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;&lt;b style=&quot;&quot;&gt;RoadLogistics&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;container=0;strokeWidth=2;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="214" y="235" width="174" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-24" value="&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;container=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="214" y="265" width="174" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-25" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;&lt;font&gt;+ createTransport(): Transport&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;fontColor=#494949;container=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="214" y="295" width="174" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="438" y="260" width="174" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;font style=&quot;&quot; color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;&lt;b style=&quot;&quot;&gt;SeaLogistics&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;container=0;strokeWidth=2;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="438" y="235" width="174" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=12;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="438" y="265" width="174" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;&lt;font&gt;+ createTransport(): Transport&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;fontColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="438" y="295" width="174" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

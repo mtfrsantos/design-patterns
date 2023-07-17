@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+        "Astley",
+        "victorian",
+        "youtube",
+        "Youtube"
+    ],
+    "tsimporter.filesToScan": [
+        ".src/**/*.ts",
+        ".test/**/*.ts"
+    ]
+}

@@ -1,0 +1,146 @@
+<mxfile host="65bd71144e">
+    <diagram name="Página-1" id="TTp-K46U8V-8WiusqMop">
+        <mxGraphModel dx="1393" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="oWftCitZypZjTsJXQDdE-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;jumpStyle=none;endSize=10;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startSize=10;" parent="1" source="22" target="oWftCitZypZjTsJXQDdE-12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="716.5" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="oWftCitZypZjTsJXQDdE-20" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-20" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;ModernChair&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="167.5" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot;&gt;return new ModernChair();&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="380" width="195.75" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;endArrow=none;rounded=0;strokeColor=#C3C3C3;endFill=0;dashed=1;strokeWidth=2;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="18" target="11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-15" value="" style="whiteSpace=wrap;html=1;strokeColor=#494949;fillColor=#494949;container=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="69.9340198446713" width="194" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-14" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+&amp;nbsp;createChair(): Chair&lt;br&gt;+ createCoffeeTable(): CoffeeTable&lt;br&gt;+ createSofa(): Sofa&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="80" width="194" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="oWftCitZypZjTsJXQDdE-12" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;FurnitureFactory&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;container=0;strokeWidth=2;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="40" width="194" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="252.5" width="194" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;endArrow=block;rounded=0;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" edge="1" parent="1" source="15" target="oWftCitZypZjTsJXQDdE-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b style=&quot;color: rgb(73, 73, 73); font-family: Nunito;&quot;&gt;ModernFurnitureFactory&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="240" width="194" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=open;rounded=0;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="16" target="oWftCitZypZjTsJXQDdE-20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=open;rounded=0;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="16" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=open;rounded=0;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="16" target="24" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="270" width="194" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+&amp;nbsp;createChair(): Chair&lt;br&gt;+ createCoffeeTable(): CoffeeTable&lt;br&gt;+ createSofa(): Sofa&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="300" width="194" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="-167.5" width="194" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;b style=&quot;color: rgb(73, 73, 73); font-family: Nunito;&quot;&gt;VictorianFurnitureFactory&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="-180" width="194" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=open;rounded=0;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="21" target="28" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=open;rounded=0;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="21" target="29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=open;rounded=0;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="21" target="30" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;...&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="-150" width="194" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+&amp;nbsp;createChair(): Chair&lt;br&gt;+ createCoffeeTable(): CoffeeTable&lt;br&gt;+ createSofa(): Sofa&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="667.5" y="-120" width="194" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="23" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;ModernCoffeeTable&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="330" y="167.5" width="120" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="24" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;ModernSofa&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="167.5" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="28" target="36" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;b style=&quot;color: rgb(73, 73, 73); font-family: Nunito;&quot;&gt;Victorian&lt;/b&gt;&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;Chair&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="-22.5" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="29" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;b style=&quot;color: rgb(73, 73, 73); font-family: Nunito;&quot;&gt;Victorian&lt;/b&gt;&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;CoffeeTable&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="325" y="-22.5" width="130" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;endFill=0;strokeWidth=2;endSize=10;startSize=10;" parent="1" source="30" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;VictorianSofa&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="-22.5" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;&lt;i&gt;Chair&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="72.5" width="50" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;&lt;i&gt;CoffeeTable&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="345" y="72.5" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;&lt;i&gt;Sofa&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="72.5" width="50" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="1031" y="69.93" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="&lt;b style=&quot;color: rgb(73, 73, 73); font-family: Nunito;&quot;&gt;Client&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="1031" y="49.99999999999999" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endSize=10;endArrow=open;rounded=0;strokeColor=#666666;endFill=0;startSize=10;" parent="1" source="47" target="oWftCitZypZjTsJXQDdE-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;- furnitureFactory:&amp;nbsp; FurnitureFactory&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="1031" y="80" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=2;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endSize=10;endArrow=none;rounded=0;strokeColor=#C3C3C3;endFill=0;dashed=1;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="48" target="50" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="940" y="155"/>
+                            <mxPoint x="940" y="265"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+ getChair(): Chair&lt;br&gt;+ getCoffeeTable(): CoffeeTable&lt;br&gt;+ getSofa(): Sofa&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="1031" y="110" width="210" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;return this.furnitureFactory.createSofa();&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="990" y="252.5" width="320" height="25" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

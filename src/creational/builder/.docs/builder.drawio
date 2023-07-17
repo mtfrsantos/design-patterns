@@ -1,0 +1,138 @@
+<mxfile host="65bd71144e">
+    <diagram id="pbnz5fcVUpWKa5H-9LFH" name="Page-1">
+        <mxGraphModel dx="1744" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="11" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="-63" y="-235" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;jumpSize=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;rounded=0;strokeColor=#666666;strokeWidth=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;endSize=10;endFill=0;startSize=10;" edge="1" parent="1" source="14" target="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+ reset()&lt;br&gt;+ setSeats(number)&lt;br&gt;+ setEngine(Engine)&lt;br&gt;+ setOnBoardComputer(boolean)&lt;br&gt;+ setGPS(boolean)&lt;br&gt;+ getResult(): Car&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-63" y="-190" width="190" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=orthogonalEdgeStyle;jumpSize=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;rounded=0;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" edge="1" parent="1" source="15" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;b style=&quot;color: rgb(73, 73, 73); font-family: Nunito;&quot;&gt;CarBuilder&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-63" y="-250" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;font face=&quot;Nunito&quot;&gt;- car: Car&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="-63" y="-220" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="207" y="-235" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" style="edgeStyle=orthogonalEdgeStyle;jumpSize=0;html=1;endArrow=open;rounded=0;strokeColor=#666666;strokeWidth=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;endSize=10;endFill=0;startSize=10;" edge="1" parent="1" source="18" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+ reset()&lt;br&gt;+ setSeats(number)&lt;br&gt;+ setEngine(Engine)&lt;br&gt;+ setOnBoardComputer(boolean)&lt;br&gt;+ setGPS(boolean)&lt;br&gt;+ getResult(): Manual&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="207" y="-190" width="190" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;jumpSize=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;rounded=0;strokeColor=#666666;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" edge="1" parent="1" source="19" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;b style=&quot;color: rgb(73, 73, 73); font-family: Nunito;&quot;&gt;ManualBuilder&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="207" y="-250" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;font face=&quot;Nunito&quot;&gt;- manual: Manual&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="207" y="-220" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;Car&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="-63" y="-40" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;Manual&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=3;strokeColor=#494949;fillColor=#F7F7F7;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="207" y="-40" width="190" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;strokeWidth=2;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endSize=10;endArrow=open;rounded=0;strokeColor=#666666;endFill=0;startSize=10;jumpSize=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="-410" as="sourcePoint"/>
+                        <mxPoint x="310" y="-400" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="390" y="-440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="420" y="-490" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="24">
+                    <mxGeometry y="12.5" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;b style=&quot;color: rgb(73, 73, 73); font-family: Nunito;&quot;&gt;Director&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="24">
+                    <mxGeometry width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font face=&quot;Nunito&quot;&gt;- builder: Builder&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="24">
+                    <mxGeometry y="30" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+ setNewBuilder(Builder)&lt;br&gt;+&amp;nbsp;createSportsCar(): Car | Manual&lt;br&gt;+ createPopularCar(): Car | Manual&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" vertex="1" parent="24">
+                    <mxGeometry y="60" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="70" y="-479" width="194" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="" style="whiteSpace=wrap;html=1;strokeColor=#494949;fillColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="25">
+                    <mxGeometry y="29.934019844671298" width="194" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+ reset()&lt;br&gt;+ setSeats(number)&lt;br&gt;+ setEngine(Engine)&lt;br&gt;+ setOnBoardComputer(boolean)&lt;br&gt;+ setGPS(boolean)&lt;br&gt;+ getResult(): any&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" vertex="1" parent="25">
+                    <mxGeometry y="40" width="194" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;Builder&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;container=0;strokeWidth=2;absoluteArcSize=1;" vertex="1" parent="25">
+                    <mxGeometry width="194" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;this.builder.reset();&lt;br&gt;this.builder.setSeats(2);&lt;br&gt;this.builder.setEngine({ speed: &quot;High&quot;, torque: &quot;Low&quot; });&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;this.builder.setOnBoardComputer(true);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;this.builder.setGPS(true);&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;return this.builder.getResult();&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="-300" width="430" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;endArrow=none;rounded=0;strokeColor=#C3C3C3;endFill=0;dashed=1;strokeWidth=2;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="32" source="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="470" y="-290" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="660" y="-400"/>
+                            <mxPoint x="660" y="-335"/>
+                            <mxPoint x="420" y="-335"/>
+                            <mxPoint x="420" y="-250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=orthogonalEdgeStyle;jumpSize=0;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;endArrow=oval;rounded=0;strokeColor=#C3C3C3;endFill=0;dashed=1;strokeWidth=2;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=none;startFill=0;" edge="1" parent="1" source="34">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="260" y="-175" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="430" y="-162"/>
+                            <mxPoint x="430" y="-175"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="34" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;this.manual = new Manual();&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="-175" width="210" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=orthogonalEdgeStyle;jumpSize=0;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;startArrow=none;startFill=0;endArrow=oval;endFill=0;rounded=0;strokeColor=#C3C3C3;dashed=1;strokeWidth=2;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;" edge="1" parent="1" source="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="393" y="-131" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="430" y="-118"/>
+                            <mxPoint x="430" y="-131"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="36" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;this.manual!.onBoardComputer = value;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="-130" width="280" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" style="edgeStyle=orthogonalEdgeStyle;jumpSize=0;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;startArrow=none;startFill=0;endArrow=oval;endFill=0;rounded=0;strokeColor=#C3C3C3;dashed=1;strokeWidth=2;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="38">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="331" y="-103" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="430" y="-68"/>
+                            <mxPoint x="430" y="-103"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;return this.manual!;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="-80" width="160" height="25" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
