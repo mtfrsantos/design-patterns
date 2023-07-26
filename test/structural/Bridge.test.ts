@@ -1,7 +1,7 @@
-import AdvancedRemoteControl from "../../src/structural/bridge/AdvancedRemoteControl";
-import Radio from "../../src/structural/bridge/Radio";
-import RemoteControl from "../../src/structural/bridge/RemoteControl";
-import TV from "../../src/structural/bridge/TV";
+import AdvancedRemoteControl from "../../src/structural/bridge/refined_abstraction/AdvancedRemoteControl";
+import Radio from "../../src/structural/bridge/concrete_implementation/Radio";
+import RemoteControl from "../../src/structural/bridge/abstraction/RemoteControl";
+import TV from "../../src/structural/bridge/concrete_implementation/TV";
 
 test("Should validate the TV and Radio", function () {
     const tv = new TV();
