@@ -1,5 +1,5 @@
-import Device from "./Device";
-import RemoteControl from "./RemoteControl";
+import Device from "../implementation/Device";
+import RemoteControl from "../abstraction/RemoteControl";
 
 export default class AdvancedRemoteControl extends RemoteControl {
     constructor(protected device: Device) {
