@@ -1,4 +1,4 @@
-import Device from "./Device";
+import Device from "../implementation/Device";
 
 export default class TV implements Device {
     private enabled = false;
