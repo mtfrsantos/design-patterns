@@ -1,4 +1,4 @@
-import Product from "./Product";
+import Product from "../leaf/Product";
 
 export default class ProductBox implements Product {
     private products: Product[] = [];
