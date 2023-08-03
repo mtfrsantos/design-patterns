@@ -1,4 +1,4 @@
-import BaseNotifier from "../../src/structural/decorator/BaseNotifier";
+import BaseNotifier from "../../src/structural/decorator/concrete_component/BaseNotifier";
 import DiscordNotifier from "../../src/structural/decorator/DiscordNotifier";
 import EmailNotifier from "../../src/structural/decorator/EmailNotifier";
 import PushNotifier from "../../src/structural/decorator/PushNotifier";
