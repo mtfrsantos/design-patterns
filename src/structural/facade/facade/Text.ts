@@ -1,7 +1,7 @@
 import FifthSentence from "../subsystem/FifthSentence";
 import FirstSentence from "../subsystem/FirstSentence";
 import FourthSentence from "../subsystem/FourthSentence";
-import SecondSentence from "../SecondSentence";
+import SecondSentence from "../subsystem/SecondSentence";
 import ThirdSentence from "../ThirdSentence";
 
 export default class Text {
