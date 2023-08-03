@@ -1,4 +1,4 @@
-import Notifier from "./Notifier";
+import Notifier from "./component/Notifier";
 
 export default class DiscordNotifier implements Notifier {
     constructor(private inner: Notifier) {}
