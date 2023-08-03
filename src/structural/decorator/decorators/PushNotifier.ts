@@ -1,4 +1,4 @@
-import Notifier from "./component/Notifier";
+import Notifier from "../component/Notifier";
 
 export default class PushNotifier implements Notifier {
     constructor(private inner: Notifier) {}
