@@ -1,5 +1,5 @@
 import FifthSentence from "../subsystem/FifthSentence";
-import FirstSentence from "../FirstSentence";
+import FirstSentence from "../subsystem/FirstSentence";
 import FourthSentence from "../FourthSentence";
 import SecondSentence from "../SecondSentence";
 import ThirdSentence from "../ThirdSentence";
