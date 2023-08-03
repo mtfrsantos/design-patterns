@@ -1,6 +1,6 @@
 import FifthSentence from "../subsystem/FifthSentence";
 import FirstSentence from "../subsystem/FirstSentence";
-import FourthSentence from "../FourthSentence";
+import FourthSentence from "../subsystem/FourthSentence";
 import SecondSentence from "../SecondSentence";
 import ThirdSentence from "../ThirdSentence";
 
