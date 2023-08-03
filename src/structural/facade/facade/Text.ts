@@ -1,8 +1,8 @@
-import FifthSentence from "./FifthSentence";
-import FirstSentence from "./FirstSentence";
-import FourthSentence from "./FourthSentence";
-import SecondSentence from "./SecondSentence";
-import ThirdSentence from "./ThirdSentence";
+import FifthSentence from "../FifthSentence";
+import FirstSentence from "../FirstSentence";
+import FourthSentence from "../FourthSentence";
+import SecondSentence from "../SecondSentence";
+import ThirdSentence from "../ThirdSentence";
 
 export default class Text {
     execute(): string {

@@ -1,4 +1,4 @@
-import Text from "../../src/structural/facade/Text";
+import Text from "../../src/structural/facade/facade/Text";
 
 test("Should return a text without knowing about the sentences", function () {
     const text = new Text();
