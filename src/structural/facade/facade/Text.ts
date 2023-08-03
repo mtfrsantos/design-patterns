@@ -2,7 +2,7 @@ import FifthSentence from "../subsystem/FifthSentence";
 import FirstSentence from "../subsystem/FirstSentence";
 import FourthSentence from "../subsystem/FourthSentence";
 import SecondSentence from "../subsystem/SecondSentence";
-import ThirdSentence from "../ThirdSentence";
+import ThirdSentence from "../subsystem/ThirdSentence";
 
 export default class Text {
     execute(): string {
