@@ -1,4 +1,4 @@
-import TreeType from "./TreeType";
+import TreeType from "../TreeType";
 export default class Tree {
     constructor(
         readonly x: number,

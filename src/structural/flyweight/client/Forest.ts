@@ -1,4 +1,4 @@
-import Tree from "../Tree";
+import Tree from "../context/Tree";
 import TreeFactory from "../TreeFactory";
 
 export default class Forest {
