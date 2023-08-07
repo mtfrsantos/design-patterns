@@ -1,5 +1,5 @@
 import Spy from "./Spy";
-import ThirdPartyYoutubeLib from "./ThirdPartyYoutubeLib";
+import ThirdPartyYoutubeLib from "./service_interface/ThirdPartyYoutubeLib";
 
 export default class CachedYoutubeService implements ThirdPartyYoutubeLib {
     private videoCache: Map<string, { title: string; length: string }>;
