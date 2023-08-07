@@ -1,5 +1,6 @@
-import Spy from "./Spy";
-import ThirdPartyYoutubeLib from "./service_interface/ThirdPartyYoutubeLib";
+import Spy from "../Spy";
+import ThirdPartyYoutubeLib from "../service_interface/ThirdPartyYoutubeLib";
+
 export default class ThirdPartyYoutubeService implements ThirdPartyYoutubeLib {
     private videos: Map<string, { title: string; length: string }>;
 

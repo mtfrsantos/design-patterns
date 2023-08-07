@@ -1,6 +1,6 @@
 import CachedYoutubeService from "../../src/structural/proxy/proxy/CachedYoutubeService";
 import Spy from "../../src/structural/proxy/Spy";
-import ThirdPartyYoutubeService from "../../src/structural/proxy/ThirdPartyYoutubeService";
+import ThirdPartyYoutubeService from "../../src/structural/proxy/service/ThirdPartyYoutubeService";
 
 test("Should return a video info if cached or create a new one if not", function () {
     const thirdPartyYoutubeServiceSpy = new Spy();
