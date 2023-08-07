@@ -1,4 +1,4 @@
-import CachedYoutubeService from "../../src/structural/proxy/CachedYoutubeService";
+import CachedYoutubeService from "../../src/structural/proxy/proxy/CachedYoutubeService";
 import Spy from "../../src/structural/proxy/Spy";
 import ThirdPartyYoutubeService from "../../src/structural/proxy/ThirdPartyYoutubeService";
 
