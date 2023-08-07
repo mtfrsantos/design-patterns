@@ -1,5 +1,5 @@
-import Tree from "./Tree";
-import TreeFactory from "./TreeFactory";
+import Tree from "../Tree";
+import TreeFactory from "../TreeFactory";
 
 export default class Forest {
     private trees: Tree[] = [];

@@ -1,4 +1,4 @@
-import Forest from "../../src/structural/flyweight/Forest";
+import Forest from "../../src/structural/flyweight/client/Forest";
 
 test("Should return where the trees will be drawn", function () {
     const forest = new Forest();
