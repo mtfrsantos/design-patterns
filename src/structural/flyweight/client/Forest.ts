@@ -1,5 +1,5 @@
 import Tree from "../context/Tree";
-import TreeFactory from "../TreeFactory";
+import TreeFactory from "../flyweight_factory/TreeFactory";
 
 export default class Forest {
     private trees: Tree[] = [];
