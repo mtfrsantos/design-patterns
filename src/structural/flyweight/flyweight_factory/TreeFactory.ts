@@ -1,4 +1,4 @@
-import TreeType from "../flywieght/TreeType";
+import TreeType from "../flyweight/TreeType";
 
 export default class TreeFactory {
     static treeTypes: Map<

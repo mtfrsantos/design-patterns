@@ -1,4 +1,5 @@
-import TreeType from "../flywieght/TreeType";
+import TreeType from "../flyweight/TreeType";
+
 export default class Tree {
     constructor(
         readonly x: number,
