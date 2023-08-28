@@ -1,7 +1,7 @@
 import Spy from "../Spy";
-import ThirdPartyYoutubeLib from "../service_interface/ThirdPartyYoutubeLib";
+import YoutubeService from "../service_interface/YoutubeService";
 
-export default class ThirdPartyYoutubeService implements ThirdPartyYoutubeLib {
+export default class ThirdPartyYoutubeService implements YoutubeService {
     private videos: Map<string, { title: string; length: string }>;
 
     constructor(private spy: Spy) {

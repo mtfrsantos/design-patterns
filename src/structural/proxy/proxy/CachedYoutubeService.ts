@@ -1,12 +1,9 @@
 import Spy from "../Spy";
-import ThirdPartyYoutubeLib from "../service_interface/ThirdPartyYoutubeLib";
+import YoutubeService from "../service_interface/YoutubeService";
 
-export default class CachedYoutubeService implements ThirdPartyYoutubeLib {
+export default class CachedYoutubeService implements YoutubeService {
     private videoCache: Map<string, { title: string; length: string }>;
-    constructor(
-        private youtubeService: ThirdPartyYoutubeLib,
-        private spy: Spy
-    ) {
+    constructor(private youtubeService: YoutubeService, private spy: Spy) {
         this.videoCache = new Map();
     }
     getVideoInfo(
