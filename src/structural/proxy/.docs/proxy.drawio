@@ -1,0 +1,66 @@
+<mxfile host="65bd71144e">
+    <diagram name="Página-1" id="TTp-K46U8V-8WiusqMop">
+        <mxGraphModel dx="2952" dy="2131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="135" value="" style="whiteSpace=wrap;html=1;strokeColor=#494949;fillColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="-40.07" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="&lt;font color=&quot;#494949&quot;&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+ getVideoInfo():&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;{ title: string; length: string } | undefined&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="-30" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;YoutubeService&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;container=1;strokeWidth=2;absoluteArcSize=1;collapsible=0;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="-70" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="117.5" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;targetPerimeterSpacing=0;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;" edge="1" parent="1" source="139" target="136">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;CachedYoutubeService&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="90" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=open;rounded=0;strokeColor=#666666;strokeWidth=2;startArrow=diamondThin;startFill=0;endFill=0;startSize=15;endSize=10;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;" edge="1" parent="1" source="140" target="147">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="140" value="&lt;font face=&quot;Nunito&quot;&gt;- videoCache: Map&amp;lt;string, { title: string; length: string }&amp;gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="120" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=none;rounded=0;strokeColor=#C3C3C3;strokeWidth=2;startArrow=none;startFill=0;endFill=0;startSize=15;endSize=10;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;dashed=1;" edge="1" parent="1" source="144" target="152">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="&lt;font color=&quot;#494949&quot;&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+ getVideoInfo():&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;{ title: string; length: string } | undefined&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="150" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="117.5" width="320" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="149" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;targetPerimeterSpacing=0;dashed=1;endFill=0;strokeWidth=2;endSize=10;startSize=10;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="146">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="146" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;ThirdPartyYoutubeService&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="90" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="&lt;font face=&quot;Nunito&quot;&gt;- videos:&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-family: Nunito;&quot;&gt;Map&amp;lt;string, { title: string; length: string }&amp;gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="120" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=none;rounded=0;strokeColor=#C3C3C3;strokeWidth=2;startArrow=none;startFill=0;endFill=0;startSize=15;endSize=10;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;dashed=1;" edge="1" parent="1" source="148" target="150">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="&lt;font color=&quot;#494949&quot;&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+ getVideoInfo():&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;{ title: string; length: string } | undefined&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="150" width="320" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;this.spy.execute();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;return this.videos.get(videoId);&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="435.63" y="255" width="248.75" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="152" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;this.spy.execute();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;let cachedVideoInfo = this.videoCache.get(videoId);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;if (!cachedVideoInfo) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;&amp;nbsp; &amp;nbsp; cachedVideoInfo = this.youtubeService.getVideoInfo(videoId);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Medium&amp;quot;; background-color: initial;&quot;&gt;if (cachedVideoInfo) {&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Medium&amp;quot;; background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; this.videoCache.set(videoId, cachedVideoInfo);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Fira Code Medium&amp;quot;; background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;return cachedVideoInfo;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="-180" y="255" width="480" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
