@@ -2,7 +2,7 @@ import NoValidation from "../../src/behavioral/chain_of_responsibility/NoValidat
 import PasswordValidation from "../../src/behavioral/chain_of_responsibility/PasswordValidation";
 import UsernameValidation from "../../src/behavioral/chain_of_responsibility/UsernameValidation";
 import User from "../../src/behavioral/chain_of_responsibility/User";
-import IPValidation from "../../src/behavioral/chain_of_responsibility/IPValidation";
+import IPValidation from "../../src/behavioral/chain_of_responsibility/concrete_handlers/IPValidation";
 
 test("Should authenticate and autorize the user without any errors", function () {
     const user = new User("user1", "password1", "172.10.1.1");
