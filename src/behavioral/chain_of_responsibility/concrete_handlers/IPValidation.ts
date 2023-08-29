@@ -1,5 +1,5 @@
-import User from "./User";
-import UserValidation from "./UserValidation";
+import User from "../User";
+import UserValidation from "../UserValidation";
 
 export default class IPValidation implements UserValidation {
     constructor(readonly next: UserValidation) {}
