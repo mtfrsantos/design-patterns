@@ -1,5 +1,5 @@
 import NoValidation from "../../src/behavioral/chain_of_responsibility/NoValidation";
-import PasswordValidation from "../../src/behavioral/chain_of_responsibility/PasswordValidation";
+import PasswordValidation from "../../src/behavioral/chain_of_responsibility/concrete_handlers/PasswordValidation";
 import UsernameValidation from "../../src/behavioral/chain_of_responsibility/UsernameValidation";
 import User from "../../src/behavioral/chain_of_responsibility/User";
 import IPValidation from "../../src/behavioral/chain_of_responsibility/concrete_handlers/IPValidation";
