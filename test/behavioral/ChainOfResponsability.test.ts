@@ -1,4 +1,4 @@
-import NoValidation from "../../src/behavioral/chain_of_responsibility/NoValidation";
+import NoValidation from "../../src/behavioral/chain_of_responsibility/base_handler/NoValidation";
 import PasswordValidation from "../../src/behavioral/chain_of_responsibility/concrete_handlers/PasswordValidation";
 import UsernameValidation from "../../src/behavioral/chain_of_responsibility/concrete_handlers/UsernameValidation";
 import User from "../../src/behavioral/chain_of_responsibility/User";
