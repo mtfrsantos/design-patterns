@@ -1,7 +1,7 @@
 import CheckEnd from "../../src/behavioral/chain_of_responsibility/CheckEnd";
 import CheckIP from "../../src/behavioral/chain_of_responsibility/CheckIP";
 import CheckPassword from "../../src/behavioral/chain_of_responsibility/CheckPassword";
-import CheckUsername from "../../src/behavioral/chain_of_responsibility/CheckUsername";
+import UsernameValidation from "../../src/behavioral/chain_of_responsibility/UsernameValidation";
 import User from "../../src/behavioral/chain_of_responsibility/User";
 
 test("Should authenticate and autorize the user without any errors", function () {
@@ -9,7 +9,7 @@ test("Should authenticate and autorize the user without any errors", function ()
     const checkEnd = new CheckEnd();
     const checkIP = new CheckIP(checkEnd);
     const checkPassword = new CheckPassword(checkIP);
-    const checkUsername = new CheckUsername(checkPassword);
+    const checkUsername = new UsernameValidation(checkPassword);
     expect(() => checkUsername.execute(firstUser)).not.toThrow(Error);
 });
 
@@ -18,6 +18,6 @@ test("Should not authenticate and autorize the user", function () {
     const checkEnd = new CheckEnd();
     const checkIP = new CheckIP(checkEnd);
     const checkPassword = new CheckPassword(checkIP);
-    const checkUsername = new CheckUsername(checkPassword);
+    const checkUsername = new UsernameValidation(checkPassword);
     expect(() => checkUsername.execute(secondUser)).toThrow(Error);
 });
