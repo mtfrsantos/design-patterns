@@ -1,7 +1,7 @@
 import User from "./User";
-import UserCheck from "./UserCheck";
+import UserValidation from "./UserValidation";
 
-export default class CheckEnd implements UserCheck {
-    constructor(readonly next?: UserCheck) {}
+export default class CheckEnd implements UserValidation {
+    constructor(readonly next?: UserValidation) {}
     execute(user: User): void {}
 }

@@ -1,8 +1,8 @@
 import User from "./User";
-import UserCheck from "./UserCheck";
+import UserValidation from "./UserValidation";
 
-export default class CheckUsername implements UserCheck {
-    constructor(readonly next?: UserCheck) {}
+export default class CheckUsername implements UserValidation {
+    constructor(readonly next?: UserValidation) {}
     execute(user: User): void {
         if (user.username !== "user1") throw new Error("Wrong username");
         this.next?.execute(user);
