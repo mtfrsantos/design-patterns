@@ -1,6 +1,5 @@
 import ElectronicDevice from "../receiver/ElectronicDevice";
 
-// Concrete receiver
 export default class Television implements ElectronicDevice {
     private state: "on" | "off" = "off";
     private volume = 0;

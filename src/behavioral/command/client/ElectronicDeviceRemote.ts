@@ -5,7 +5,6 @@ import TurnDeviceOff from "../concrete_commands/TurnDeviceOff";
 import TurnDeviceOn from "../concrete_commands/TurnDeviceOn";
 import TurnDeviceUp from "../concrete_commands/TurnDeviceUp";
 
-// Client
 export default class ElectronicDeviceRemote {
     private onButton: DeviceButton;
     private offButton: DeviceButton;

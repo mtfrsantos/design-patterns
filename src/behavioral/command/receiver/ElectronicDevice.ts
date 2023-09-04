@@ -1,4 +1,3 @@
-// Receiver interface
 export default interface ElectronicDevice {
     on(): void;
     off(): void;
