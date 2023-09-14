@@ -1,6 +1,6 @@
 import StringIterator from "../iterator/StringIterator";
 
-export default interface StringArray {
+export default interface StringArrayCollection {
     createUppercaseStringArrayIterator(): StringIterator;
     createReversedStringArrayIterator(): StringIterator;
 }
