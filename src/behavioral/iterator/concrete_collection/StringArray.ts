@@ -11,10 +11,4 @@ export default class StringArray implements StringArrayCollection {
     createReversedStringArrayIterator(): StringIterator {
         return new ReversedStringArrayIterator(this.stringCollection);
     }
-    getStringCollection(): string[] {
-        return this.stringCollection;
-    }
-    getLength(): number {
-        return this.stringCollection.length;
-    }
 }
