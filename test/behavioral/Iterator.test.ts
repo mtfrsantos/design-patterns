@@ -1,26 +1,20 @@
-import EmailAddress from "../../src/behavioral/iterator/EmailAddress";
-import EmailAddressCollection from "../../src/behavioral/iterator/EmailAddressCollection";
-import DomainSpammer from "../../src/behavioral/iterator/DomainSpammer";
-import Application from "../../src/behavioral/iterator/Application";
+import ArrayGenerator from "../../src/behavioral/iterator/ArrayGenerator";
+import StringArray from "../../src/behavioral/iterator/concrete_collection/StringArray";
+import ReversedStringArrayIterator from "../../src/behavioral/iterator/concrete_iterator/ReversedStringArrayIterator";
+import UppercaseStringArrayIterator from "../../src/behavioral/iterator/concrete_iterator/UppercaseStringArrayIterator";
 
-test("Should send emails to a specific domain in a collection of email addresses", function () {
-    const emailAddresses = [
-        new EmailAddress("a", "gmail.com"),
-        new EmailAddress("b", "gmail.com"),
-        new EmailAddress("c", "yahoo.com"),
-        new EmailAddress("d", "yahoo.com"),
-    ];
-    const emailAddressCollection = new EmailAddressCollection(emailAddresses);
-    const domainSpammer = new DomainSpammer();
-    const application = new Application(domainSpammer, emailAddressCollection);
-    let spamCollection = application.sendSpamToGmail();
-    expect(spamCollection).toEqual([
-        "Very important message to a@gmail.com",
-        "Very important message to b@gmail.com",
-    ]);
-    spamCollection = application.sendSpamToYahoo();
-    expect(spamCollection).toEqual([
-        "Very important message to c@yahoo.com",
-        "Very important message to d@yahoo.com",
-    ]);
+test("Should get an uppercase array of strings", function () {
+    const collection = new StringArray(["a", "b", "c", "d"]);
+    const iterator = new UppercaseStringArrayIterator(collection);
+    const arrayGenerator = new ArrayGenerator(iterator);
+    const uppercaseArray = arrayGenerator.execute();
+    expect(uppercaseArray).toEqual(["A", "B", "C", "D"]);
+});
+
+test("Should get an reversed array of strings", function () {
+    const collection = new StringArray(["a", "b", "c", "d"]);
+    const iterator = new ReversedStringArrayIterator(collection);
+    const arrayGenerator = new ArrayGenerator(iterator);
+    const reversedArray = arrayGenerator.execute();
+    expect(reversedArray).toEqual(["d", "c", "b", "a"]);
 });
