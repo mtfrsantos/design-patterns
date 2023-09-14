@@ -1,11 +1,11 @@
 import StringArray from "../concrete_collection/StringArray";
 import StringIterator from "../iterator/StringIterator";
 
-export default class ReversedStringArrayIterator implements StringIterator {
+export default class UppercaseStringArrayIterator implements StringIterator {
     private currentPosition = 0;
     private collectionLength;
-    constructor(private collection: StringArray) {
-        this.collectionLength = this.collection.getLength();
+    constructor(private collection: string[]) {
+        this.collectionLength = this.collection.length;
     }
     getNextElement(): string {
         if (
@@ -13,8 +13,7 @@ export default class ReversedStringArrayIterator implements StringIterator {
             this.currentPosition > this.collectionLength - 1
         )
             throw Error("Invalid index");
-        const element =
-            this.collection.getStringCollection()[this.currentPosition];
+        const element = this.collection[this.currentPosition];
         this.currentPosition++;
         return element.toUpperCase();
     }

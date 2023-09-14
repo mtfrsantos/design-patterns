@@ -4,9 +4,9 @@ import StringIterator from "../iterator/StringIterator";
 export default class ReversedStringArrayIterator implements StringIterator {
     private currentPosition;
     private collectionLength;
-    constructor(private collection: StringArray) {
-        this.collectionLength = this.collection.getLength();
-        this.currentPosition = this.collection.getLength() - 1;
+    constructor(private collection: string[]) {
+        this.collectionLength = this.collection.length;
+        this.currentPosition = this.collection.length - 1;
     }
     getNextElement(): string {
         if (
@@ -14,8 +14,7 @@ export default class ReversedStringArrayIterator implements StringIterator {
             this.currentPosition > this.collectionLength - 1
         )
             throw Error("Invalid index");
-        const element =
-            this.collection.getStringCollection()[this.currentPosition];
+        const element = this.collection[this.currentPosition];
         this.currentPosition--;
         return element;
     }
