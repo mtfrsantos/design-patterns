@@ -1,6 +1,6 @@
 // Concrete component
-import Query from "./Query";
-import ConcreteQueryHandler from "./ConcreteQueryHandler";
+import Query from "../components/Query";
+import ConcreteQueryHandler from "../concrete_mediators/ConcreteQueryHandler";
 
 export default class GetAllUsersQuery implements Query {
     statement: string;
