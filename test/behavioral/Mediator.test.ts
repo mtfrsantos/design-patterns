@@ -1,9 +1,9 @@
 import GetAllUsersQuery from "../../src/behavioral/mediator/GetAllUsersQuery";
 import GetUserByIdQuery from "../../src/behavioral/mediator/GetUserByIdQuery";
-import QueryHandler from "../../src/behavioral/mediator/QueryHandler";
+import ConcreteQueryHandler from "../../src/behavioral/mediator/ConcreteQueryHandler";
 
 test("Should return the query result", function () {
-    const queryHandler = new QueryHandler();
+    const queryHandler = new ConcreteQueryHandler();
     const getAllUsersQuery = new GetAllUsersQuery(queryHandler);
     expect(getAllUsersQuery.execute()).toEqual("Get all users");
     const getUserByIdQuery = new GetUserByIdQuery(queryHandler);
