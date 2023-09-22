@@ -1,4 +1,3 @@
-// Concrete mediator
 import GetAllUsersQuery from "../concrete_components/GetAllUsersQuery";
 import GetUserByIdQuery from "../concrete_components/GetUserByIdQuery";
 import Query from "../components/Query";

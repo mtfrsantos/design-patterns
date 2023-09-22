@@ -1,4 +1,3 @@
-// Concrete component
 import Query from "../components/Query";
 import ConcreteQueryHandler from "../concrete_mediators/ConcreteQueryHandler";
 
