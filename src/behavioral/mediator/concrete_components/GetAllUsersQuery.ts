@@ -1,11 +1,11 @@
 import Query from "../components/Query";
-import ConcreteQueryHandler from "../concrete_mediators/ConcreteQueryHandler";
+import QueryHandler from "../mediator/QueryHandler";
 
 export default class GetAllUsersQuery implements Query {
     statement: string;
     parameters: string[] = [];
 
-    constructor(private handler: ConcreteQueryHandler) {
+    constructor(private handler: QueryHandler) {
         this.statement = "select username from user";
     }
     execute(): string {
