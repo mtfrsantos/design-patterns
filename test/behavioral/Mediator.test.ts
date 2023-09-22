@@ -1,6 +1,6 @@
-import GetAllUsersQuery from "../../src/behavioral/mediator/GetAllUsersQuery";
-import GetUserByIdQuery from "../../src/behavioral/mediator/GetUserByIdQuery";
-import ConcreteQueryHandler from "../../src/behavioral/mediator/ConcreteQueryHandler";
+import GetAllUsersQuery from "../../src/behavioral/mediator/concrete_components/GetAllUsersQuery";
+import GetUserByIdQuery from "../../src/behavioral/mediator/concrete_components/GetUserByIdQuery";
+import ConcreteQueryHandler from "../../src/behavioral/mediator/concrete_mediators/ConcreteQueryHandler";
 
 test("Should return the query result", function () {
     const queryHandler = new ConcreteQueryHandler();
