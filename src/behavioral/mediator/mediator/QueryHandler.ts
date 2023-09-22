@@ -1,5 +1,5 @@
 // Mediator
-import Query from "./Query";
+import Query from "../components/Query";
 
 export default interface QueryHandler {
     execute(query: Query): string;
