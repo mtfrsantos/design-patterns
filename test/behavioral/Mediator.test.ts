@@ -5,7 +5,11 @@ import ConcreteQueryHandler from "../../src/behavioral/mediator/ConcreteQueryHan
 test("Should return the query result", function () {
     const queryHandler = new ConcreteQueryHandler();
     const getAllUsersQuery = new GetAllUsersQuery(queryHandler);
-    expect(getAllUsersQuery.execute()).toEqual("Get all users");
+    expect(getAllUsersQuery.execute()).toEqual(
+        "GetAllUsersQuery: select username from user"
+    );
     const getUserByIdQuery = new GetUserByIdQuery(queryHandler);
-    expect(getUserByIdQuery.execute()).toEqual("Get user by id");
+    expect(getUserByIdQuery.execute()).toEqual(
+        "GetUserByIdQuery: select username from user where id=$1"
+    );
 });
