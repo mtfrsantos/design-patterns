@@ -1,12 +1,13 @@
+// Concrete component
 import Query from "./Query";
-import QueryHandler from "./QueryHandler";
+import ConcreteQueryHandler from "./ConcreteQueryHandler";
 
 export default class GetUserByIdQuery implements Query {
     statement: string;
-    parameters: string[] | undefined;
+    parameters: string[] = [];
 
-    constructor(private handler: QueryHandler) {
-        this.statement = "Get user by id";
+    constructor(private handler: ConcreteQueryHandler) {
+        this.statement = "select username from user where id=$1";
     }
     execute(): string {
         return this.handler.execute(this);
