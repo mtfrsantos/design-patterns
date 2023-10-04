@@ -1,4 +1,4 @@
-import Editor from "../../src/behavioral/memento/Editor";
+import Editor from "../../src/behavioral/memento/originator/Editor";
 import EditorHistory from "../../src/behavioral/memento/EditorHistory";
 
 test("Should recovery last state", function () {
