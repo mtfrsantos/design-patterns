@@ -1,5 +1,5 @@
-import Editor from "./originator/Editor";
-import Snapshot from "./memento/Snapshot";
+import Editor from "../originator/Editor";
+import Snapshot from "../memento/Snapshot";
 
 export default class EditorHistory {
     private history: Snapshot[] = [];
