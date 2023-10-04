@@ -3,16 +3,16 @@ import Snapshot from "../memento/Snapshot";
 export default class Editor {
     private editorArea: string[] = [];
 
-    addLine(line: string) {
+    addLine(line: string): void {
         this.editorArea.push(line);
     }
-    save() {
+    save(): Snapshot {
         return new Snapshot([...this.editorArea]);
     }
-    restore(snapshot: Snapshot) {
+    restore(snapshot: Snapshot): void {
         this.editorArea = snapshot.get();
     }
-    getState() {
+    getState(): string[] {
         return [...this.editorArea];
     }
 }
