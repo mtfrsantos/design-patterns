@@ -1,4 +1,4 @@
-import Snapshot from "../Snapshot";
+import Snapshot from "../memento/Snapshot";
 
 export default class Editor {
     private editorArea: string[] = [];
