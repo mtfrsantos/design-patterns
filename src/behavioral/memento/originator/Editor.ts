@@ -1,4 +1,4 @@
-import Snapshot from "./Snapshot";
+import Snapshot from "../Snapshot";
 
 export default class Editor {
     private editorArea: string[] = [];

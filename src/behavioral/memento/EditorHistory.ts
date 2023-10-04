@@ -1,4 +1,4 @@
-import Editor from "./Editor";
+import Editor from "./originator/Editor";
 import Snapshot from "./Snapshot";
 
 export default class EditorHistory {
