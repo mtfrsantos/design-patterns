@@ -22,4 +22,6 @@ test("Should recovery last state", function () {
     expect(editor.getState()).toEqual(["First Line"]);
     editorHistory.undo();
     expect(editor.getState()).toEqual([]);
+    editorHistory.undo();
+    expect(editor.getState()).toEqual([]);
 });
