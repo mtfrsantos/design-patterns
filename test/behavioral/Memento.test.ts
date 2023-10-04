@@ -3,24 +3,23 @@ import EditorHistory from "../../src/behavioral/memento/EditorHistory";
 
 test("Should recovery last state", function () {
     const editor = new Editor();
-    const editorHistory = new EditorHistory();
-    editorHistory.add(editor.save());
+    const editorHistory = new EditorHistory(editor);
+    editorHistory.save();
     editor.addLine("First Line");
-    editorHistory.add(editor.save());
+    editorHistory.save();
     editor.addLine("Second Line");
-    editorHistory.add(editor.save());
+    editorHistory.save();
     editor.addLine("Third Line");
-    editorHistory.add(editor.save());
+    editorHistory.save();
     expect(editor.getState()).toEqual([
         "First Line",
         "Second Line",
         "Third Line",
     ]);
-    editorHistory.pop()!;
-    editor.restore(editorHistory.pop()!);
+    editorHistory.undo();
     expect(editor.getState()).toEqual(["First Line", "Second Line"]);
-    editor.restore(editorHistory.pop()!);
+    editorHistory.undo();
     expect(editor.getState()).toEqual(["First Line"]);
-    editor.restore(editorHistory.pop()!);
+    editorHistory.undo();
     expect(editor.getState()).toEqual([]);
 });
