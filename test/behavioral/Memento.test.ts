@@ -1,5 +1,5 @@
 import Editor from "../../src/behavioral/memento/originator/Editor";
-import EditorHistory from "../../src/behavioral/memento/EditorHistory";
+import EditorHistory from "../../src/behavioral/memento/caretaker/EditorHistory";
 
 test("Should recovery last state", function () {
     const editor = new Editor();
