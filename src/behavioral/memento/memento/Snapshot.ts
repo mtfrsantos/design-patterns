@@ -3,7 +3,7 @@ export default class Snapshot {
     constructor(editorArea: string[]) {
         this.editorArea = editorArea;
     }
-    get() {
+    get(): string[] {
         return this.editorArea;
     }
 }
