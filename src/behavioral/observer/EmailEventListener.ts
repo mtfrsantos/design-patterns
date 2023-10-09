@@ -1,21 +1,19 @@
 import EmailMessage from "./EmailMessage";
 import EventListener from "./EventListener";
 import LogMessage from "./LogMessage";
-import UpdateCallSpy from "./UpdateCallSpy";
+import UpdateSpy from "./UpdateSpy";
 
 export default class EmailEventListener implements EventListener {
-    constructor(
-        readonly updateCallSpy: UpdateCallSpy | undefined = undefined
-    ) {}
     update(message: LogMessage | EmailMessage) {
+    constructor(readonly updateSpy: UpdateSpy) {}
         if (message instanceof EmailMessage) {
-            this.updateCallSpy?.incrementCallCount();
+            this.updateSpy.incrementCallCount();
         }
         if (message instanceof LogMessage && message.level === "error") {
-            this.updateCallSpy?.incrementCallCount();
+            this.updateSpy.incrementCallCount();
         }
         if (message instanceof LogMessage && message.level === "warning") {
-            this.updateCallSpy?.incrementCallCount();
+            this.updateSpy.incrementCallCount();
         }
     }
 }

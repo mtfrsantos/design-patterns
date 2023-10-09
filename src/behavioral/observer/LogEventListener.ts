@@ -1,12 +1,10 @@
 import LogMessage from "./LogMessage";
 import EventListener from "./EventListener";
-import UpdateCallSpy from "./UpdateCallSpy";
+import UpdateSpy from "./UpdateSpy";
 
 export default class LogEventListener implements EventListener {
-    constructor(
-        readonly updateCallSpy: UpdateCallSpy | undefined = undefined
-    ) {}
+    constructor(readonly updateCallSpy: UpdateSpy) {}
     update(message: LogMessage) {
-        this.updateCallSpy?.incrementCallCount();
+        this.updateCallSpy.incrementCallCount();
     }
 }

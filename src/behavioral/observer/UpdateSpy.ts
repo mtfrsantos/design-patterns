@@ -1,4 +1,4 @@
-export default class UpdateCallSpy {
+export default class UpdateSpy {
     private callCount = 0;
     incrementCallCount() {
         this.callCount++;
