@@ -3,16 +3,16 @@ import EventManager from "../../src/behavioral/observer/EventManager";
 import EventMessageFactory from "../../src/behavioral/observer/EventMessageFactory";
 import LogEventListener from "../../src/behavioral/observer/LogEventListener";
 import QueueEventListener from "../../src/behavioral/observer/QueueEventListener";
-import UpdateCallSpy from "../../src/behavioral/observer/UpdateCallSpy";
+import UpdateSpy from "../../src/behavioral/observer/UpdateSpy";
 
 test("Should notify the listeners", function () {
-    const logUpdateCallSpy = new UpdateCallSpy();
-    const queueUpdateCallSpy = new UpdateCallSpy();
-    const emailUpdateCallSpy = new UpdateCallSpy();
+    const logUpdateSpy = new UpdateSpy();
+    const queueUpdateSpy = new UpdateSpy();
+    const emailUpdateSpy = new UpdateSpy();
     const eventManager = new EventManager();
-    const logListener = new LogEventListener(logUpdateCallSpy);
-    const queueListener = new QueueEventListener(queueUpdateCallSpy);
-    const emailListener = new EmailEventListener(emailUpdateCallSpy);
+    const logListener = new LogEventListener(logUpdateSpy);
+    const queueListener = new QueueEventListener(queueUpdateSpy);
+    const emailListener = new EmailEventListener(emailUpdateSpy);
     eventManager.subscribe("log", logListener);
     eventManager.subscribe("log", queueListener);
     eventManager.subscribe("log", emailListener);
@@ -44,7 +44,7 @@ test("Should notify the listeners", function () {
     eventManager.notify("log", errorLogMessage);
     eventManager.notify("queue", queueMessage);
     eventManager.notify("email", emailMessage);
-    expect(logUpdateCallSpy.getCallCount()).toBe(3);
-    expect(queueUpdateCallSpy.getCallCount()).toBe(2);
-    expect(emailUpdateCallSpy.getCallCount()).toBe(3);
+    expect(logUpdateSpy.getCallCount()).toBe(3);
+    expect(queueUpdateSpy.getCallCount()).toBe(2);
+    expect(emailUpdateSpy.getCallCount()).toBe(3);
 });
