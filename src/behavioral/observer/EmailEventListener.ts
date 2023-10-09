@@ -4,8 +4,8 @@ import LogMessage from "./LogMessage";
 import UpdateSpy from "./UpdateSpy";
 
 export default class EmailEventListener implements EventListener {
-    update(message: LogMessage | EmailMessage) {
     constructor(readonly updateSpy: UpdateSpy) {}
+    update(message: LogMessage | EmailMessage): void {
         if (message instanceof EmailMessage) {
             this.updateSpy.incrementCallCount();
         }
