@@ -3,25 +3,25 @@ import EventListener from "./EventListener";
 import EventMessage from "./EventMessage";
 
 export default class EventManager {
-    private listeners = new Map<EventType, EventListener[]>();
-    constructor() {
-        this.listeners.set("log", []);
-        this.listeners.set("queue", []);
-        this.listeners.set("email", []);
-    }
+    private listeners: Record<EventType, EventListener[]> = {
+        log: [],
+        queue: [],
+        email: [],
+    };
     subscribe(eventType: EventType, listener: EventListener) {
-        if (this.listeners.get(eventType)!.includes(listener)) {
-            throw new Error(`${listener} is already subscribed`);
+        if (this.listeners[eventType].includes(listener)) {
+            throw new Error(`Listener is already subscribed`);
         }
-        this.listeners.get(eventType)!.push(listener);
+        this.listeners[eventType].push(listener);
     }
     unsubscribe(eventType: EventType, subscriber: EventListener) {
-        this.listeners
-            .get(eventType)!
-            .splice(this.listeners.get(eventType)!.indexOf(subscriber), 1);
+        this.listeners[eventType].splice(
+            this.listeners[eventType].indexOf(subscriber),
+            1
+        );
     }
     notify(eventType: EventType, eventMessage: EventMessage) {
-        this.listeners.get(eventType)!.forEach((listener) => {
+        this.listeners[eventType].forEach((listener) => {
             listener.update(eventMessage);
         });
     }
