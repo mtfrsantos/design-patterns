@@ -1,4 +1,4 @@
-import EventMessage from "./publisher/EventMessage";
+import EventMessage from "./EventMessage";
 
 export default class LogMessage implements EventMessage {
     constructor(
