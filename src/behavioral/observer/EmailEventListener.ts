@@ -8,9 +8,11 @@ export default class EmailEventListener implements EventListener {
     update(message: LogMessage | EmailMessage): void {
         if (message instanceof EmailMessage) {
             this.updateSpy.incrementCallCount();
+            return;
         }
         if (message instanceof LogMessage && message.level === "error") {
             this.updateSpy.incrementCallCount();
+            return;
         }
         if (message instanceof LogMessage && message.level === "warning") {
             this.updateSpy.incrementCallCount();
