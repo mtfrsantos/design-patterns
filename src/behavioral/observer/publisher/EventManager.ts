@@ -1,4 +1,4 @@
-import EventType from "../EventType";
+import EventType from "./EventType";
 import EventListener from "../subscriber/EventListener";
 import EventMessage from "../EventMessage";
 
