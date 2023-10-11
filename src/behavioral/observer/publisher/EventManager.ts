@@ -1,6 +1,6 @@
 import EventType from "./EventType";
 import EventListener from "../subscriber/EventListener";
-import EventMessage from "../EventMessage";
+import EventMessage from "./EventMessage";
 
 export default class EventManager {
     private listeners: Record<EventType, EventListener[]> = {
