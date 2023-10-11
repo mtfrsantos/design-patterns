@@ -1,6 +1,6 @@
-import EventType from "./EventType";
-import EventListener from "./EventListener";
-import EventMessage from "./EventMessage";
+import EventType from "../EventType";
+import EventListener from "../EventListener";
+import EventMessage from "../EventMessage";
 
 export default class EventManager {
     private listeners: Record<EventType, EventListener[]> = {
