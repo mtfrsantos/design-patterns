@@ -1,7 +1,7 @@
 import EmailEventListener from "../../src/behavioral/observer/concrete_subscriber/EmailEventListener";
 import EventManager from "../../src/behavioral/observer/publisher/EventManager";
 import EventMessageFactory from "../../src/behavioral/observer/EventMessageFactory";
-import LogEventListener from "../../src/behavioral/observer/LogEventListener";
+import LogEventListener from "../../src/behavioral/observer/concrete_subscriber/LogEventListener";
 import QueueEventListener from "../../src/behavioral/observer/concrete_subscriber/QueueEventListener";
 import UpdateSpy from "../../src/behavioral/observer/UpdateSpy";
 
