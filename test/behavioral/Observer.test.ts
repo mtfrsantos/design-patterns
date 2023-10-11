@@ -1,5 +1,5 @@
 import EmailEventListener from "../../src/behavioral/observer/EmailEventListener";
-import EventManager from "../../src/behavioral/observer/EventManager";
+import EventManager from "../../src/behavioral/observer/publisher/EventManager";
 import EventMessageFactory from "../../src/behavioral/observer/EventMessageFactory";
 import LogEventListener from "../../src/behavioral/observer/LogEventListener";
 import QueueEventListener from "../../src/behavioral/observer/QueueEventListener";
