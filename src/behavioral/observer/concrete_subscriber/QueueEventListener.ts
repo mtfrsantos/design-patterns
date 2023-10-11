@@ -1,7 +1,7 @@
-import EventListener from "./subscriber/EventListener";
-import LogMessage from "./LogMessage";
-import QueueMessage from "./QueueMessage";
-import UpdateSpy from "./UpdateSpy";
+import EventListener from "../subscriber/EventListener";
+import LogMessage from "../LogMessage";
+import QueueMessage from "../QueueMessage";
+import UpdateSpy from "../UpdateSpy";
 
 export default class QueueEventListener implements EventListener {
     constructor(readonly updateCallSpy: UpdateSpy) {}
