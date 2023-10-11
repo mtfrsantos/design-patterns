@@ -1,4 +1,4 @@
-import EventListener from "./EventListener";
+import EventListener from "./subscriber/EventListener";
 import LogMessage from "./LogMessage";
 import QueueMessage from "./QueueMessage";
 import UpdateSpy from "./UpdateSpy";

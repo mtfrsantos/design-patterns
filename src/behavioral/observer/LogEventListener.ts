@@ -1,5 +1,5 @@
 import LogMessage from "./LogMessage";
-import EventListener from "./EventListener";
+import EventListener from "./subscriber/EventListener";
 import UpdateSpy from "./UpdateSpy";
 
 export default class LogEventListener implements EventListener {

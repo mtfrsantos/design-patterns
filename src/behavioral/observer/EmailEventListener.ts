@@ -1,5 +1,5 @@
 import EmailMessage from "./EmailMessage";
-import EventListener from "./EventListener";
+import EventListener from "./subscriber/EventListener";
 import LogMessage from "./LogMessage";
 import UpdateSpy from "./UpdateSpy";
 

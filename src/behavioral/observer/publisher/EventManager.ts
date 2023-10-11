@@ -1,5 +1,5 @@
 import EventType from "../EventType";
-import EventListener from "../EventListener";
+import EventListener from "../subscriber/EventListener";
 import EventMessage from "../EventMessage";
 
 export default class EventManager {
