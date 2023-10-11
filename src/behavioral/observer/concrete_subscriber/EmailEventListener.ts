@@ -1,7 +1,7 @@
-import EmailMessage from "./EmailMessage";
-import EventListener from "./subscriber/EventListener";
-import LogMessage from "./LogMessage";
-import UpdateSpy from "./UpdateSpy";
+import EmailMessage from "../EmailMessage";
+import EventListener from "../subscriber/EventListener";
+import LogMessage from "../LogMessage";
+import UpdateSpy from "../UpdateSpy";
 
 export default class EmailEventListener implements EventListener {
     constructor(readonly updateSpy: UpdateSpy) {}
