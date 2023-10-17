@@ -4,8 +4,8 @@ import QueueMessage from "../QueueMessage";
 import UpdateSpy from "../UpdateSpy";
 
 export default class QueueEventListener implements EventListener {
-    update(message: LogMessage | QueueMessage) {
     constructor(readonly updateSpy: UpdateSpy) {}
+    update(message: LogMessage | QueueMessage): void {
         if (message instanceof QueueMessage) {
             this.updateSpy.incrementCallCount();
         }
