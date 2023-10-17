@@ -1,0 +1,197 @@
+<mxfile host="65bd71144e">
+    <diagram name="Página-1" id="TTp-K46U8V-8WiusqMop">
+        <mxGraphModel dx="944" dy="2416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="332" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2140" y="337.5" width="310" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="333" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="332" vertex="1">
+                    <mxGeometry y="27.5" width="310.00000000000006" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="334" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;QueueEventListener&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="332" vertex="1">
+                    <mxGeometry width="310.00000000000006" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="335" value="&lt;font face=&quot;Nunito&quot;&gt;-&amp;nbsp;updateSpy: UpdateSpy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="332" vertex="1">
+                    <mxGeometry y="30" width="310.00000000000006" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="336" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;+ update(message: LogMessage | QueueMessage): void&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="332" vertex="1">
+                    <mxGeometry y="60" width="310.00000000000006" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="337" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2523.75" y="337.5" width="302.5" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="338" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="337" vertex="1">
+                    <mxGeometry y="27.5" width="302.50000000000006" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="339" value="&lt;b&gt;&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;EmailEventListener&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="337" vertex="1">
+                    <mxGeometry width="302.50000000000006" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="340" value="&lt;font face=&quot;Nunito&quot;&gt;-&amp;nbsp;updateSpy: UpdateSpy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="337" vertex="1">
+                    <mxGeometry y="30" width="302.50000000000006" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="341" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;+ update(message: LogMessage | EmailMessage): void&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="337" vertex="1">
+                    <mxGeometry y="60" width="302.50000000000006" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="347" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2030" y="-150" width="120" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="348" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="347" vertex="1">
+                    <mxGeometry y="27.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="349" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;EmailMessage&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="347" vertex="1">
+                    <mxGeometry width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="350" value="&lt;font face=&quot;Nunito&quot;&gt;- message: string&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="347" vertex="1">
+                    <mxGeometry y="30" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="351" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;...&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="347" vertex="1">
+                    <mxGeometry y="60" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="361" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2030" y="-18" width="120" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="357" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="361" vertex="1">
+                    <mxGeometry y="27.5" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="358" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;LogMessage&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="361" vertex="1">
+                    <mxGeometry width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="359" value="&lt;font face=&quot;Nunito&quot;&gt;-&amp;nbsp;level: string&lt;br&gt;- message: string&lt;br&gt;- method: string&lt;br&gt;- className: string&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="361" vertex="1">
+                    <mxGeometry y="30" width="120" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="360" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;...&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="361" vertex="1">
+                    <mxGeometry y="95" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="362" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2030" y="150" width="120" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="363" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="362" vertex="1">
+                    <mxGeometry y="27.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="364" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;QueueMessage&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="362" vertex="1">
+                    <mxGeometry width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="365" value="&lt;font face=&quot;Nunito&quot;&gt;- message: string&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="362" vertex="1">
+                    <mxGeometry y="30" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="366" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;...&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="362" vertex="1">
+                    <mxGeometry y="60" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="367" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontColor=default;endArrow=open;rounded=0;strokeColor=#666666;strokeWidth=2;startArrow=diamondThin;startFill=0;endFill=0;startSize=15;endSize=10;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;" parent="1" source="326" target="329" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="368" style="edgeStyle=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=open;rounded=0;strokeColor=#666666;dashed=1;startArrow=none;startFill=0;endFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;" parent="1" source="325" target="355" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="369" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2280" y="14" width="110" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="353" value="" style="whiteSpace=wrap;html=1;strokeColor=#494949;fillColor=#494949;container=0;strokeWidth=2;" parent="369" vertex="1">
+                    <mxGeometry y="29.93" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="354" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;-&amp;nbsp;message: string&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="369" vertex="1">
+                    <mxGeometry y="40" width="110.00000000000001" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="355" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;EventMessage&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;container=0;strokeWidth=2;absoluteArcSize=1;" parent="369" vertex="1">
+                    <mxGeometry width="110.00000000000001" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="380" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2895" y="337.5" width="220" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="343" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="380" vertex="1">
+                    <mxGeometry y="27.5" width="220" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="344" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b&gt;LogEventListener&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="380" vertex="1">
+                    <mxGeometry width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="345" value="&lt;font face=&quot;Nunito&quot;&gt;-&amp;nbsp;updateSpy: UpdateSpy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="380" vertex="1">
+                    <mxGeometry y="30" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="346" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;+ update(message: LogMessage): void&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="380" vertex="1">
+                    <mxGeometry y="60" width="220" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="381" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;dashed=1;startArrow=none;startFill=0;endFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;" parent="1" source="339" target="328" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="382" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=none;rounded=0;strokeColor=#666666;dashed=1;startArrow=none;startFill=0;endFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;" parent="1" source="344" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2675" y="310" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="3000" y="310"/>
+                            <mxPoint x="2675" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="383" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=none;rounded=0;strokeColor=#666666;dashed=1;startArrow=none;startFill=0;endFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;" parent="1" source="334" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2670" y="310" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="2350" y="310"/>
+                            <mxPoint x="2675" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="384" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2545" y="190" width="260" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="327" value="" style="whiteSpace=wrap;html=1;strokeColor=#494949;fillColor=#494949;container=0;strokeWidth=2;" parent="384" vertex="1">
+                    <mxGeometry y="29.930000000000007" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="328" value="&lt;font color=&quot;#494949&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;+&amp;nbsp;update(eventMessage: EventMessage): void&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="384" vertex="1">
+                    <mxGeometry y="40" width="260" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="329" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;EventListener&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;container=0;strokeWidth=2;absoluteArcSize=1;" parent="384" vertex="1">
+                    <mxGeometry width="260" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="386" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=none;endFill=0;rounded=0;strokeColor=#666666;dashed=1;startArrow=block;startFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="355" target="359" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="388" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;rounded=0;strokeColor=#666666;dashed=1;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;" parent="1" source="365" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2220" y="34" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="389" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;startArrow=none;startFill=0;endArrow=none;endFill=0;rounded=0;strokeColor=#666666;dashed=1;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;" parent="1" source="350" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2220" y="34" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="391" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;endArrow=none;rounded=0;strokeColor=#C3C3C3;startArrow=none;startFill=0;endFill=0;strokeWidth=2;startSize=4;endSize=6;sourcePerimeterSpacing=1;targetPerimeterSpacing=1;dashed=1;" parent="1" source="390" target="336" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="390" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;if (message instanceof QueueMessage) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;&amp;nbsp; &amp;nbsp; this.updateSpy.incrementCallCount();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;if (message instanceof LogMessage &amp;amp;&amp;amp; message.level === &quot;error&quot;) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;&amp;nbsp; &amp;nbsp; this.updateSpy.incrementCallCount();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="2050" y="530" width="490" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="392" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;this.listeners[eventType].forEach((listener) =&amp;gt; {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;&amp;nbsp; &amp;nbsp; listener.update(eventMessage);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;});&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="2960" y="10" width="370" height="64.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="393" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;endArrow=none;rounded=0;strokeColor=#C3C3C3;startArrow=oval;startFill=0;endFill=0;strokeWidth=2;startSize=6;endSize=6;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;dashed=1;" edge="1" parent="1" target="392">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2842" y="100" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="2920" y="100"/>
+                            <mxPoint x="2920" y="44"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="322" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="2500" y="1.7763568394002505e-15" width="350" height="125" as="geometry"/>
+                </mxCell>
+                <mxCell id="323" value="" style="whiteSpace=wrap;html=1;fillColor=#494949;strokeColor=#494949;container=0;strokeWidth=2;" parent="322" vertex="1">
+                    <mxGeometry y="27.5" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="324" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;&lt;b style=&quot;&quot;&gt;EventManager&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;fillColor=#F7F7F7;strokeColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="322" vertex="1">
+                    <mxGeometry width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="325" value="&lt;font face=&quot;Nunito&quot;&gt;- listeners: Record&amp;lt;EventType, EventListener[]&amp;gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;perimeterSpacing=0;spacingLeft=2;fontColor=#494949;strokeWidth=2;container=0;absoluteArcSize=1;" parent="322" vertex="1">
+                    <mxGeometry y="30" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="326" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;+ subscribe(eventType: EventType, listener: EventListener)&lt;br&gt;+ unsubscribe(eventType: EventType, subscriber: EventListener)&lt;br&gt;+ notify(eventType: EventType, eventMessage: EventMessage)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="322" vertex="1">
+                    <mxGeometry y="60" width="350" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
