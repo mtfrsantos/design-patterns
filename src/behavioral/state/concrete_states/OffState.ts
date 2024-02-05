@@ -1,5 +1,5 @@
 import OnState from "./OnState";
-import State from "./State";
+import State from "../state/State";
 
 export default class OffState extends State {
     touchOnScreen(): string {
