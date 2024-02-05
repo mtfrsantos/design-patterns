@@ -1,6 +1,6 @@
 import OffState from "./OffState";
 import OnState from "./OnState";
-import State from "./State";
+import State from "../state/State";
 
 export default class LockedState extends State {
     touchOnScreen(): string {
