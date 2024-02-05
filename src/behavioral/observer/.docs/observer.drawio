@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="Página-1" id="TTp-K46U8V-8WiusqMop">
-        <mxGraphModel dx="944" dy="2416" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="29" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -115,21 +115,19 @@
                 <mxCell id="381" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=block;rounded=0;strokeColor=#666666;dashed=1;startArrow=none;startFill=0;endFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;" parent="1" source="339" target="328" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="382" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=none;rounded=0;strokeColor=#666666;dashed=1;startArrow=none;startFill=0;endFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;" parent="1" source="344" edge="1">
+                <mxCell id="382" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=none;rounded=0;strokeColor=#666666;dashed=1;startArrow=none;startFill=0;endFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="344" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2675" y="310" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="3000" y="310"/>
-                            <mxPoint x="2675" y="310"/>
+                            <mxPoint x="3005" y="310"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="383" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=none;rounded=0;strokeColor=#666666;dashed=1;startArrow=none;startFill=0;endFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;" parent="1" source="334" edge="1">
+                <mxCell id="383" style="edgeStyle=orthogonalEdgeStyle;html=1;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;fontColor=default;endArrow=none;rounded=0;strokeColor=#666666;dashed=1;startArrow=none;startFill=0;endFill=0;targetPerimeterSpacing=0;strokeWidth=2;endSize=10;startSize=10;sourcePerimeterSpacing=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="334" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="2670" y="310" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="2350" y="310"/>
-                            <mxPoint x="2675" y="310"/>
+                            <mxPoint x="2295" y="310"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
@@ -164,17 +162,8 @@
                 <mxCell id="390" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;if (message instanceof QueueMessage) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;&amp;nbsp; &amp;nbsp; this.updateSpy.incrementCallCount();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;if (message instanceof LogMessage &amp;amp;&amp;amp; message.level === &quot;error&quot;) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;&amp;nbsp; &amp;nbsp; this.updateSpy.incrementCallCount();&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font face=&quot;Fira Code Medium&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot;&gt;}&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="2050" y="530" width="490" height="125" as="geometry"/>
                 </mxCell>
-                <mxCell id="392" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;this.listeners[eventType].forEach((listener) =&amp;gt; {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;&amp;nbsp; &amp;nbsp; listener.update(eventMessage);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;});&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" vertex="1" parent="1">
+                <mxCell id="392" value="&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 26px;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 147%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 137%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;this.listeners[eventType].forEach((listener) =&amp;gt; {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;&amp;nbsp; &amp;nbsp; listener.update(eventMessage);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 157%;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Fira+Code+Medium&quot; face=&quot;Fira Code Medium&quot;&gt;});&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#494949;strokeColor=#C3C3C3;fillColor=#EBEBEB;align=left;verticalAlign=middle;spacingLeft=2;spacingRight=1;strokeWidth=2;" parent="1" vertex="1">
                     <mxGeometry x="2960" y="10" width="370" height="64.5" as="geometry"/>
-                </mxCell>
-                <mxCell id="393" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;endArrow=none;rounded=0;strokeColor=#C3C3C3;startArrow=oval;startFill=0;endFill=0;strokeWidth=2;startSize=6;endSize=6;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;dashed=1;" edge="1" parent="1" target="392">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="2842" y="100" as="sourcePoint"/>
-                        <Array as="points">
-                            <mxPoint x="2920" y="100"/>
-                            <mxPoint x="2920" y="44"/>
-                        </Array>
-                    </mxGeometry>
                 </mxCell>
                 <mxCell id="322" value="" style="group" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="2500" y="1.7763568394002505e-15" width="350" height="125" as="geometry"/>
@@ -190,6 +179,16 @@
                 </mxCell>
                 <mxCell id="326" value="&lt;font face=&quot;Nunito&quot; color=&quot;#494949&quot;&gt;+ subscribe(eventType: EventType, listener: EventListener)&lt;br&gt;+ unsubscribe(eventType: EventType, subscriber: EventListener)&lt;br&gt;+ notify(eventType: EventType, eventMessage: EventMessage)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=6;fillColor=#F7F7F7;strokeColor=#494949;align=left;spacingLeft=2;container=0;strokeWidth=2;absoluteArcSize=1;" parent="322" vertex="1">
                     <mxGeometry y="60" width="350" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="393" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DFira%2BCode%2BMedium;endArrow=none;rounded=0;strokeColor=#C3C3C3;startArrow=oval;startFill=0;endFill=0;strokeWidth=2;startSize=6;endSize=6;sourcePerimeterSpacing=2;targetPerimeterSpacing=1;dashed=1;" parent="1" target="392" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="2842" y="101" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="2920" y="100"/>
+                            <mxPoint x="2920" y="44"/>
+                            <mxPoint x="2960" y="44"/>
+                        </Array>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
