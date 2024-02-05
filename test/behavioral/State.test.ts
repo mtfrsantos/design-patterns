@@ -1,4 +1,4 @@
-import Phone from "../../src/behavioral/state/Phone";
+import Phone from "../../src/behavioral/state/context/Phone";
 
 test("Should test how phone behave in different states", function () {
     const phone = new Phone();
