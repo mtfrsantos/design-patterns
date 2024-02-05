@@ -1,4 +1,4 @@
-import Phone from "./Phone";
+import Phone from "../context/Phone";
 
 export default abstract class State {
     constructor(protected phone: Phone) {}
