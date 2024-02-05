@@ -1,5 +1,5 @@
-import State from "./State";
-import OffState from "./OffState";
+import State from "../state/State";
+import OffState from "../concrete_states/OffState";
 
 export default class Phone {
     private state: State;
