@@ -1,4 +1,4 @@
-import Strategy from "../Strategy";
+import Strategy from "../strategy/Strategy";
 
 export default class Context {
     private strategy?: Strategy;
