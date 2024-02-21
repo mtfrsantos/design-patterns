@@ -1,5 +1,5 @@
-import BaseRestrictedEndpoint from "./abstract_class/BaseRestrictedEndpoint";
-import EndpointInput from "./EndpointInput";
+import BaseRestrictedEndpoint from "../abstract_class/BaseRestrictedEndpoint";
+import EndpointInput from "../EndpointInput";
 
 export default class CommonEndpoint extends BaseRestrictedEndpoint {
     authorizeClient(token: string): void {
