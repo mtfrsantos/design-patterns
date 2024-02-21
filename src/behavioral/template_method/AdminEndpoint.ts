@@ -1,4 +1,4 @@
-import BaseRestrictedEndpoint from "./BaseRestrictedEndpoint";
+import BaseRestrictedEndpoint from "./abstract_class/BaseRestrictedEndpoint";
 import EndpointInput from "./EndpointInput";
 
 export default class AdminEndpoint extends BaseRestrictedEndpoint {

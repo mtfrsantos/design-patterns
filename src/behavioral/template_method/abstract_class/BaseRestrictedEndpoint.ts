@@ -1,6 +1,6 @@
-import AuthenticationServer from "./AuthenticationServer";
-import AuthorizationServer from "./AuthorizationServer";
-import EndpointInput from "./EndpointInput";
+import AuthenticationServer from "../AuthenticationServer";
+import AuthorizationServer from "../AuthorizationServer";
+import EndpointInput from "../EndpointInput";
 
 export default abstract class BaseRestrictedEndpoint {
     constructor(
