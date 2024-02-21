@@ -1,16 +1,31 @@
 export default class AuthenticationServer {
-    generateToken(username: string, password: string): string | void {
+    private adminUserToken = "";
+    private commonUserToken = "";
+
+    constructor() {
+        this.adminUserToken = btoa(
+            JSON.stringify({
+                username: "admin_user",
+                password: "admin_user",
+            })
+        );
+        this.commonUserToken = btoa(
+            JSON.stringify({
+                username: "common_user",
+                password: "common_user",
+            })
+        );
+    }
+    generateToken(username: string, password: string): string {
         if (username === "admin_user" && password === "admin_user") {
-            return "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c";
+            return this.adminUserToken;
         }
+        if (username === "common_user" && password === "common_user") {
+            return this.commonUserToken;
+        }
+        return "invalidToken";
     }
     validateToken(token: string): boolean {
-        if (
-            token ===
-            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
-        ) {
-            return true;
-        }
-        return false;
+        return [this.adminUserToken, this.commonUserToken].includes(token);
     }
 }

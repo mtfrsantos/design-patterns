@@ -5,28 +5,23 @@ import EndpointInput from "./EndpointInput";
 export default abstract class BaseRestrictedEndpoint {
     constructor(
         private authenticationServer: AuthenticationServer,
-        private authorizationServer: AuthorizationServer
+        protected authorizationServer: AuthorizationServer
     ) {}
 
-    execute(input: EndpointInput): { status: string } | void {
-        if (!input.headers) {
-            throw new Error("Missing headers");
-        }
-        this.authenticate(input.headers.Authorization);
-        this.authorize(input.headers.Authorization);
-        return this.endpointExecute(input);
+    authenticateAndAuthorizeClientThenExecuteEndpoint(input: EndpointInput): {
+        status: string;
+    } {
+        this.authenticateClient(input.headers.Authorization);
+        this.authorizeClient(input.headers.Authorization);
+        return this.executeEndpoint(input);
     }
 
-    abstract endpointExecute(input: EndpointInput): { status: string };
+    abstract executeEndpoint(input: EndpointInput): { status: string };
+    abstract authorizeClient(token: string): void;
 
-    authenticate(token: string): void {
+    authenticateClient(token: string): void {
         if (!this.authenticationServer.validateToken(token)) {
             throw new Error("Invalid token");
-        }
-    }
-    authorize(token: string): void {
-        if (!this.authorizationServer.execute(token)) {
-            throw new Error("Invalid user");
         }
     }
 }
