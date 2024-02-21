@@ -1,7 +1,7 @@
 import AuthenticationServer from "../../src/behavioral/template_method/AuthenticationServer";
 import AuthorizationServer from "../../src/behavioral/template_method/AuthorizationServer";
 import LoginEndpoint from "../../src/behavioral/template_method/LoginEndpoint";
-import AdminEndpoint from "../../src/behavioral/template_method/AdminEndpoint";
+import AdminEndpoint from "../../src/behavioral/template_method/concrete_classes/AdminEndpoint";
 import CommonEndpoint from "../../src/behavioral/template_method/CommonEndpoint";
 
 test("Should get admin user token from loginEndpoint", function () {
