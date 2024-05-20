@@ -1,7 +1,7 @@
-import Circle from "./Circle";
-import Dot from "./Dot";
-import Rectangle from "./Rectangle";
-import Visitor from "./Visitor";
+import Circle from "../concrete_elements/Circle";
+import Dot from "../concrete_elements/Dot";
+import Rectangle from "../concrete_elements/Rectangle";
+import Visitor from "../visitor/Visitor";
 
 export default class JsonExportVisitor implements Visitor {
     visitDot(dot: Dot): any {
@@ -31,3 +31,4 @@ export default class JsonExportVisitor implements Visitor {
         };
     }
 }
+

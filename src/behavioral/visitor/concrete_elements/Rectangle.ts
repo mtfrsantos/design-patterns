@@ -1,5 +1,5 @@
-import Shape from "./Shape";
-import Visitor from "./Visitor";
+import Shape from "../element/Shape";
+import Visitor from "../visitor/Visitor";
 
 export default class Rectangle implements Shape {
     constructor(
@@ -12,3 +12,4 @@ export default class Rectangle implements Shape {
         return visitor.visitRectangle(this);
     }
 }
+

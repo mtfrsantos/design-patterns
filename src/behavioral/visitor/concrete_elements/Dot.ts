@@ -1,5 +1,5 @@
-import Shape from "./Shape";
-import Visitor from "./Visitor";
+import Shape from "../element/Shape";
+import Visitor from "../visitor/Visitor";
 
 export default class Dot implements Shape {
     constructor(readonly coordinateX: number, readonly CoordinateY: number) {}
@@ -7,3 +7,4 @@ export default class Dot implements Shape {
         return visitor.visitDot(this);
     }
 }
+

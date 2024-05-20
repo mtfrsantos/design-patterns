@@ -1,8 +1,8 @@
-import Application from "../../src/behavioral/visitor/Application";
-import Circle from "../../src/behavioral/visitor/Circle";
-import Dot from "../../src/behavioral/visitor/Dot";
-import JsonExportVisitor from "../../src/behavioral/visitor/JsonExportVisitor";
-import Rectangle from "../../src/behavioral/visitor/Rectangle";
+import Application from "../../src/behavioral/visitor/client/Application";
+import Circle from "../../src/behavioral/visitor/concrete_elements/Circle";
+import Dot from "../../src/behavioral/visitor/concrete_elements/Dot";
+import Rectangle from "../../src/behavioral/visitor/concrete_elements/Rectangle";
+import JsonExportVisitor from "../../src/behavioral/visitor/concrete_visitors/JsonExportVisitor";
 
 test("Should return a JSON with characteristics of the objects", function () {
     const shapes = [
@@ -34,3 +34,4 @@ test("Should return a JSON with characteristics of the objects", function () {
         },
     ]);
 });
+

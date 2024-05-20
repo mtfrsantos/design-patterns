@@ -1,5 +1,5 @@
-import Shape from "./Shape";
-import Visitor from "./Visitor";
+import Shape from "../element/Shape";
+import Visitor from "../visitor/Visitor";
 
 export default class Circle implements Shape {
     constructor(
@@ -11,3 +11,4 @@ export default class Circle implements Shape {
         return visitor.visitCircle(this);
     }
 }
+
