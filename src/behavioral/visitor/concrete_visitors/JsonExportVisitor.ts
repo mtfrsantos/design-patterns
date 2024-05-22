@@ -18,7 +18,7 @@ export default class JsonExportVisitor implements Visitor {
             },
         };
     }
-    visitRectangle(rectangle: Rectangle) {
+    visitRectangle(rectangle: Rectangle): any {
         return {
             rectangle: {
                 leftTopSideCoordinates: [
