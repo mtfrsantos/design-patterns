@@ -4,16 +4,16 @@
 
 This project is part of my study of design patterns. The examples and
 documentation in this project are heavily influenced by the book
-["Dive Into Design Patterns"](https://refactoring.guru/design-patterns/book),
+[Dive Into Design Patterns](https://refactoring.guru/design-patterns/book),
 but also include personal examples. The goal of this project is to deepen
 my understanding of design patterns and demonstrate their practical
 applications.
 
 ## Requirements
 
-- Node.js [https://nodejs.org](https://nodejs.org/)
-- NVM [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
-- Yarn (`sudo npm install -g yarn`)
+- [Node.js](https://nodejs.org/)
+- [nvm](https://github.com/nvm-sh/nvm)
+- yarn (`sudo npm install -g yarn`)
 
 ## Installation
 
