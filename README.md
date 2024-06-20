@@ -47,7 +47,6 @@ This project includes examples of various design patterns, such as:
 
 - Chain of Responsibility
 - Command
-- Interpreter
 - Iterator
 - Mediator
 - Memento
